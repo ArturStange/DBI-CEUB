@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3CE4B5FF-F5DD-91F6-89AA-7D0959352F2C" mainViewID="B4624874-EFCA-AAAE-C2B7-F89CAA25AB08">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-03-28 00:35:26 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

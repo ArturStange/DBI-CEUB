@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="B4624874-EFCA-AAAE-C2B7-F89CAA25AB08">
+<createdBy>artur.stange</createdBy>
+<modifiedBy>artur.stange</modifiedBy>
+<createdTime>2025-03-28 00:47:44 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="1A504C9D-BF74-FD2F-5770-477CE0E3DB6F" otype="Note" vid="8DE18433-763D-A6C9-628C-49BE3AF47B29">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="456" y="241" width="229" height="103"/>
+<comment>IMC - Tabela 
+18,5 - 24,9 = Peso Normal
+25,0 - 29,9 = Excesso de Peso
+30,0 - 34,9 = Obesidade Classe I
+35,0 - 39,9 = Obesidade Classe II
+Maioir ou igual a 40,0 = Obesidade Classe III</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2C2AF45C-785A-D109-3C1A-6390C9F85083" otype="Entity" vid="D5A3E3D8-8133-E017-9A80-1CAA0946E1FC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="16" y="200" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="84677048-2777-3CF9-5E60-1F50B4FF78E4" otype="Entity" vid="F58BD7A6-FAEF-ED1A-D64A-F2D8B2AA1026">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="227" y="18" width="170" height="141"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="CDD2E887-FE28-9643-A3A4-3905DF785C36" otype="Note" vid="2556018D-C1EA-B6A4-167B-9502F989BF91">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="454" y="165" width="254" height="68"/>
+<comment>imcPesoAtual = altura/peso
+imcPesoAnteriores = imcanteriores registrados</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D82FD052-1EDB-DE1A-F4DC-FC8EDB8A55F4" otype="Entity" vid="DBFE393F-6D9F-115D-630E-1071C0107E14">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="16" y="6" width="170" height="158"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F9049747-388C-058F-FF50-E9587D8CBE5E" otype="Entity" vid="D2F1A20C-FC53-09E2-DE63-68579A9F00B8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="441" y="28" width="173" height="122"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="038CA73F-022B-296B-2B23-FDC693E7419A" otype="Relation" vid_source="DBFE393F-6D9F-115D-630E-1071C0107E14" vid_target="D5A3E3D8-8133-E017-9A80-1CAA0946E1FC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="101" y="164"/>
+<point x="101" y="200"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0DCC62D0-8B93-8DA5-9124-35DF8AE1D38C" otype="Relation" vid_source="DBFE393F-6D9F-115D-630E-1071C0107E14" vid_target="F58BD7A6-FAEF-ED1A-D64A-F2D8B2AA1026">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="186" y="88"/>
+<point x="227" y="88"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="CE919AE2-6FC5-99A7-1380-5C89E987883B" otype="Relation" vid_source="F58BD7A6-FAEF-ED1A-D64A-F2D8B2AA1026" vid_target="D2F1A20C-FC53-09E2-DE63-68579A9F00B8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="397" y="104"/>
+<point x="441" y="104"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

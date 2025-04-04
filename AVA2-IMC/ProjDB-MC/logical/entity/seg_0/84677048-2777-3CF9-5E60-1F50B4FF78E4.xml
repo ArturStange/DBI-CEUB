@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84677048-2777-3CF9-5E60-1F50B4FF78E4" name="Pessoa">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-03-28 00:51:15 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>psa</preferredAbbreviation>
+<shortName>Pessoa</shortName>
+<synonym>Pessoa</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="BACE11B2-BD7E-FE1D-84C2-D955985501FE">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-03-28 00:53:09 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idade" id="2E4EA4FB-C7CE-E144-C635-2CEC86BB4EC3">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:39:57 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="A746596A-8D22-A3B8-7104-B8326625F174">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:16:42 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="6297B8DA-4460-F4D5-BE15-5C67DFC46893">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:40:23 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="0179B3AE-1ECA-867A-4A63-E3556B7C9582">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:40:29 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroTelefone" id="A7FF317E-F870-4943-ED57-74D34B09B437">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:40:05 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="8F148657-357C-D34B-0016-F9D43A41EAC4">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:42:53 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="E56BB5AE-473D-3F63-694E-B315FD4297EF">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:43:22 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4DE36CD-1B5D-F91F-DFAE-CFACFB7253E4" name="Pessoa PK">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-04 00:25:09 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6297B8DA-4460-F4D5-BE15-5C67DFC46893</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

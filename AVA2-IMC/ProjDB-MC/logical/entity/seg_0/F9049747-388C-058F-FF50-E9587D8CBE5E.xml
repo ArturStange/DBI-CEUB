@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9049747-388C-058F-FF50-E9587D8CBE5E" name="Imc">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-03-28 00:52:32 UTC</createdTime>
+<comment><![CDATA[imcPesoAtula = peso/altura]]></comment>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>imc</preferredAbbreviation>
+<shortName>Imc</shortName>
+<synonym>Imc</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="imcPesoAtual" id="8938579B-A37A-1828-1C40-E0A0BA6A78B1">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:53:05 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imcPesosAnteriores" id="0CB77287-78FA-962C-5F17-5C8B6409297E">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:53:41 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analiseImcPesso" id="4BB6A12F-7FF0-AE48-642E-C5445BDB2A90">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-04 00:27:36 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="C8AED020-C025-35BB-32BA-0D27CF82FE6B">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-04 00:28:21 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="14E113BA-47F8-11A2-6E73-9013957CACAD">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-04 00:28:21 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="647D1057-78E2-42D0-0CC4-6A9BE0730808">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-04 00:28:21 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="550E72D1-2FF2-1346-91C0-35D13A0677B1">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-04 00:28:57 UTC</createdTime>
+<generatorID>CE919AE2-6FC5-99A7-1380-5C89E987883B</generatorID>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<referedAttribute>6297B8DA-4460-F4D5-BE15-5C67DFC46893</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D6EFC69-C91F-ABAE-2ED7-1312A3550273" name="Imc PK">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-04 00:27:23 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8938579B-A37A-1828-1C40-E0A0BA6A78B1</attributeRef>
+<attributeRef>550E72D1-2FF2-1346-91C0-35D13A0677B1</attributeRef>
+<attributeRef>C8AED020-C025-35BB-32BA-0D27CF82FE6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

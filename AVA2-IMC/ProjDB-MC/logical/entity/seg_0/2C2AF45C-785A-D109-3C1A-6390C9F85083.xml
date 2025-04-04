@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C2AF45C-785A-D109-3C1A-6390C9F85083" name="Plano">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:46:17 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="D1809127-D783-2004-1E20-23181D42E1FE">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:46:49 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoPlano" id="48614120-1E9F-FA6E-5939-643AE86B523C">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:47:40 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="CE4A285A-6C85-DD48-2B08-50869FB145AE">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:46:57 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricaoPlano" id="127B31CB-686C-9E9A-E1F5-74E15601366F">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:54:34 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="293E2650-9D42-C684-9E44-2204C6827FD0">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-04-03 22:47:07 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<engineerTo>
+<item key="3B9E6724-7013-A749-6C09-5C7883F6C985" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

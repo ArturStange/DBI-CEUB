@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjDB-MC" id="9358ACE3-7A10-E328-BC48-92602B70D850" version="3.5">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-03-28 00:35:26 UTC</createdTime>
+<ownerDesignName>ProjDB-MC</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9358ACE3-7A10-E328-BC48-92602B70D850</designId>
+</OSDM_Design>
