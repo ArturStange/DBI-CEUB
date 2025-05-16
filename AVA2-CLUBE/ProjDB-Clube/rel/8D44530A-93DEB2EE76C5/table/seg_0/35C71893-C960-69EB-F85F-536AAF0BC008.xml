@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35C71893-C960-69EB-F85F-536AAF0BC008" name="Mensalidade">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>51FB5589-B4EF-1525-06EF-2488B3819189</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="valor" id="B2130121-D416-201A-28E9-F82762D1B756">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>8196DE92-8FD6-5C68-88E3-0B28EF08BE3A</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataVencimento" id="AB56D4BE-651A-E94F-9012-820FC9BE978A">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>1ACACAAD-8794-EF0A-666E-85BE46625A84</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPagamento" id="2DB802C8-259B-0AEC-0DBD-84E01F6DEEE4">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>EDA2C943-513C-4AAC-DDE3-D7F1711B5E31</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfTtular" id="E1A53660-B947-D5D9-EDC0-F50DB47CC2B7">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>CC5D03A6-1851-3BEB-5F96-6E419F3C0552</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ref" id="3FD8DBCD-4551-C5C5-F2F2-CFD7191E5B3D">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>F5ED5AC1-D4BF-D5AE-0C3F-B959E9F54D7E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titu_cpfTitular" id="69656AD4-0E31-6108-DF1C-7A731103B1E0">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>58A9C352-E6E9-A2CC-C579-DAD6A4C57966</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF16E6CC-C775-DC80-7E52-3418839E128D" referredColumn="9FC04296-2C80-AF8F-E42E-BC584427733A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="150CCEFA-052F-05BE-46D6-D4A24FB52264" name="Mensalidade__IDX">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3DA0220E-FEDF-F9B3-9B47-E5B37599B76E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="69656AD4-0E31-6108-DF1C-7A731103B1E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02B7CEB5-83F0-8CB1-C3AC-3E9588473835" name="Mensalidade_titu_FK">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>3DA0220E-FEDF-F9B3-9B47-E5B37599B76E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69656AD4-0E31-6108-DF1C-7A731103B1E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

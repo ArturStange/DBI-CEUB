@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2FE9AAF-7446-57FB-BFDD-5EB4DE4BB655" name="Dependente">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:16:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataNascimentoDependente" id="A8AB38B9-34A5-56AC-FE96-3AC6059A80B8">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:32:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="DD9A620B-280C-20DF-6A40-51D18D0032E3">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:32:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="C24FABDD-AF07-7656-FD28-C45B56F1CBA7">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:32:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="33BA6182-9648-3728-5D5F-96C8098EA57E">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:37:52 UTC</createdTime>
+<generatorID>56252900-6E30-6B46-F658-7BC812A7DAAF</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<referedAttribute>FA6363E1-895A-F4C4-EFAD-E2062DD1E41E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8CD91F27-5187-AD28-E937-7247295C05DD" name="Dependente PK">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:42:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD9A620B-280C-20DF-6A40-51D18D0032E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
