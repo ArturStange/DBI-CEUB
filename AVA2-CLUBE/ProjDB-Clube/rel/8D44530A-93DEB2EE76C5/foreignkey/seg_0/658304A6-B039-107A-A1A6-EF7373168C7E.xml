@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="658304A6-B039-107A-A1A6-EF7373168C7E" containerWithKeyObject="F88986FA-1D0A-F284-69B2-66531E93546A" localFKIndex="52ADC8A0-F27C-3B35-BE8B-9E4DA4CC836B" name="EndereçoTitular_titu_FK">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>234F06DB-4E6A-35DA-0CEA-7DAB841DD46F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<referredTableLongName>titu</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62F50DAE-36CC-9A60-FB94-0DE047756991</referredTableID>
+<keyObject>58651134-5828-88FC-CB7F-62736A032F38</keyObject>
+<referredKeyID>58651134-5828-88FC-CB7F-62736A032F38</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpfTitular</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

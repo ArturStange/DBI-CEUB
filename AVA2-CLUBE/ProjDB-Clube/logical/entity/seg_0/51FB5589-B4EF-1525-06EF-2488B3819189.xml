@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51FB5589-B4EF-1525-06EF-2488B3819189" name="Mensalidade">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:49:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="valor" id="8196DE92-8FD6-5C68-88E3-0B28EF08BE3A">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:49:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataVencimento" id="1ACACAAD-8794-EF0A-666E-85BE46625A84">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:49:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPagamento" id="EDA2C943-513C-4AAC-DDE3-D7F1711B5E31">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:49:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTtular" id="CC5D03A6-1851-3BEB-5F96-6E419F3C0552">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:49:17 UTC</createdTime>
+<generatorID>3E9BF8CA-2A9A-DD59-62BE-23585B132822</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referencia" id="F5ED5AC1-D4BF-D5AE-0C3F-B959E9F54D7E">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:49:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="58A9C352-E6E9-A2CC-C579-DAD6A4C57966">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:49:37 UTC</createdTime>
+<generatorID>3DA0220E-FEDF-F9B3-9B47-E5B37599B76E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<referedAttribute>FA6363E1-895A-F4C4-EFAD-E2062DD1E41E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="97F0B2A4-2448-E516-90E0-186C14EAE550" name="Mensalidade PK">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:58:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8196DE92-8FD6-5C68-88E3-0B28EF08BE3A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

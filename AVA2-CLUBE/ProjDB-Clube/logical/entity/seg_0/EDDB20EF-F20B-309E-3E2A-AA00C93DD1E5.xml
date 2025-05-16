@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDDB20EF-F20B-309E-3E2A-AA00C93DD1E5" name="Telefones">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:15:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="telefonePrimario" id="F7BB7EE8-24BB-EC9B-2BD7-A9B0A4871FC5">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:26:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneSecundario" id="730803DA-3AC5-6670-75E2-3C9BC1509BD3">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:28:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A532F610-3825-21AA-F257-6366C5B4239F" name="TelefoneTitular PK">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:26:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7BB7EE8-24BB-EC9B-2BD7-A9B0A4871FC5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

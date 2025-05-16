@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B9805DC-B5F9-A508-9279-62663F0F6F54" name="Dependente">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-16 00:41:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataNascimentoDependente" id="1066A5D7-CD8D-F267-6CB0-E93C6ACE0D40">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-16 00:45:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="3D01BA22-2AFF-5785-A4A2-176D6F35D47C">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-16 00:45:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="6D285725-12E8-C5BB-541E-0BE3D3887726">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-16 00:45:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grauParentesco" id="F13BE045-B42A-2E08-D3B7-4DD932476DC4">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-16 00:45:15 UTC</createdTime>
+<generatorID>4592549C-D2CE-F62E-9D23-8514FCA1C3DE</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="7F342A30-6968-FFC1-FC10-FE34FC45A0EC">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-16 00:45:56 UTC</createdTime>
+<generatorID>FA50C52A-EE12-E1F6-DE28-D02921A14912</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="8D44530A-E0C9-B39D-6B48-93DEB2EE76C5" value="true"/>
+</engineerTo>
+<referedAttribute>FA6363E1-895A-F4C4-EFAD-E2062DD1E41E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

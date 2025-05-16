@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="298E360A-3C34-CCA7-CB0B-E83A70A26717" name="TelefoneDependente">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>B09A5987-1CB2-E62D-4B2E-B03A0B1B0EF1</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefoneDependentePrimario" id="BEFDDECA-0608-7971-E78E-3843DF6A1EFE">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>93ECAED8-B9E3-2CAB-23A9-35380C848C8D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneDependenteSecundario" id="354A610C-C00F-AE44-F9EF-48E52EFE8F53">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>849E26A3-7C0C-9C71-CC71-5859AAF76CEB</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3422F89-DAB9-EE2A-61AE-6D2C2B22DBD6" name="TelefoneDependente_PK">
+<createdBy>artur.stange</createdBy>
+<createdTime>2025-05-15 23:51:29 UTC</createdTime>
+<generatorID>8174CDFF-18F7-EAAB-B24E-F8E27B7AACD4</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEFDDECA-0608-7971-E78E-3843DF6A1EFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
